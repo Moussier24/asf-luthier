@@ -90,13 +90,9 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url("../assets/360_F_254979077_fT8mZRi2Vqpo5hh6A4RAr9sDWWhts17O.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 a {
