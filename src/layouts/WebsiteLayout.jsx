@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar/Navbar";
+import styles from "@/styles/Home.module.css";
 
-const WebsiteLayout = () => {
+import Footer from "@/components/Footer/Footer";
+const WebsiteLayout = ({ children }) => {
   return (
     <>
       <Head>
@@ -11,6 +13,8 @@ const WebsiteLayout = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <main className={styles.main}>{children}</main>
+      <Footer />
     </>
   );
 };

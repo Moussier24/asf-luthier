@@ -105,3 +105,20 @@ a {
     color-scheme: dark;
   }
 }
+
+.color-primary {
+  color: white;
+}
+.color-bg-primary {
+  background-color: white;
+}
+.color-bg-secondary {
+  background-color: #4d4d4d;
+}
+.color-secondary {
+  color: #4d4d4d;
+}
+
+/* ON HOVER */
+
+/*END - HOVER  */
