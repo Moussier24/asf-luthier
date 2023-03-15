@@ -16,7 +16,7 @@ const Footer = () => {
               width="100"
               height="100"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-black text-2xl font-semibold whitespace-nowrap dark:text-white">
               Asf-luthier
             </span>
           </a>
