@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Guitar from "../assets/Welcome page.JPG";
+import Guitar from "../assets/guitar.jpg";
 import WebsiteLayout from "@/layouts/WebsiteLayout";
 const inter = Inter({ subsets: ["latin"] });
 
