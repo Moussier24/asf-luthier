@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar/Navbar";
+import SocialMedia from "@/components/SocialMedia/SocialMedia";
 import styles from "@/styles/Home.module.css";
 
 import Footer from "@/components/Footer/Footer";
@@ -13,7 +14,10 @@ const WebsiteLayout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className={styles.main}>{children}</main>
+      <main className={`${styles.main} relative`}>
+        <SocialMedia />
+        {children}
+      </main>
       <Footer />
     </>
   );

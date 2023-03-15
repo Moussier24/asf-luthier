@@ -147,3 +147,16 @@ a {
 .border-rouge {
   border: solid 2px red;
 }
+
+/* START - SOCIAL MEDIA COMPONENT */
+.container-social-media {
+  color: red;
+  /* border: solid 2px red; */
+  position: fixed;
+  top: 50%;
+  right: 1%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* END - SOCIAL MEDIA COMPONENT */

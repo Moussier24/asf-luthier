@@ -39,6 +39,9 @@ module.exports = {
       borderWidth: {
         1: "1px",
       },
+      translate: {
+        "50N": "-50%",
+      },
     },
   },
   plugins: [],

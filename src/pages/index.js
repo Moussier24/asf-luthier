@@ -18,8 +18,8 @@ export default function Home() {
               height={500}
             />
           </div>
-          <div className=" lg:p-8 md:p-4 sm:p-4 p-4  text-color-secondary font-normal">
-            <p className="text-xl lg:text-20px md:text-20px sm:text-16px text-18px text-center">
+          <div className=" lg:p-8 md:p-4 sm:p-4 p-4   font-normal">
+            <p className="text-xl text-color-secondary lg:text-20px md:text-20px sm:text-16px text-18px text-center">
               I have been passionnate about music ever since I was very young,
               after studying cabinet-making and instrument building for 9 years,
               I opened my workshop next to Paris in Vincennes, France. I am now
