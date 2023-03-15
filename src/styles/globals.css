@@ -124,6 +124,14 @@ a {
 .color-bg-secondary {
   background-color: #4d4d4d;
 }
+.color-bg-secondary-hover:hover {
+  background-color: #4d4d4d;
+  transition: all 0.4s ease-in-out;
+}
 .color-secondary {
   color: #4d4d4d;
+}
+
+.selecter > button > svg {
+  color: #4d4d4d !important;
 }

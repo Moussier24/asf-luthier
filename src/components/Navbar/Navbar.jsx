@@ -4,12 +4,13 @@ import Image from "next/image";
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Icon } from "@iconify/react";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Instruments", href: "#", current: false },
-  { name: "About", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "HOME", href: "#", current: true },
+  { name: "INSTRUMENTS", href: "#", current: false },
+  { name: "ABOUT", href: "#", current: false },
+  { name: "CONTACT", href: "#", current: false },
 ];
 
 function classNames(...classes) {
@@ -17,21 +18,27 @@ function classNames(...classes) {
 }
 const Navbar = () => {
   return (
-    <div>
+    <div className="ml-5 mr-5">
       {/* LOGO */}
       <Image className="mx-auto" src={Logo} />
       {/* MENU */}
-      <Disclosure as="nav" className="bg-transparent border-b-2 border-black">
+      <Disclosure
+        as="nav"
+        className="bg-transparent border-b-2 border-color-secondary w-90"
+      >
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
               <div className="relative flex h-16 items-center justify-between">
-                <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                <div className="selecter absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-color-secondary">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
-                      <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                      <XMarkIcon
+                        className="block h-6 w-6 fill-color"
+                        aria-hidden="true"
+                      />
                     ) : (
                       <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                     )}
@@ -39,18 +46,33 @@ const Navbar = () => {
                 </div>
                 <div className="flex flex-1 md:place-content-center items-center justify-center sm:items-stretch ">
                   <div className="flex flex-shrink-0 items-center">
-                    <img
+                    {/* <img
                       className="block h-8 w-auto lg:hidden"
                       src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                       alt="Your Company"
+                    /> */}
+                    <Icon
+                      className="block h-10 w-auto lg:hidden"
+                      icon="la:guitar"
+                      color="#4d4d4d"
+                      width="100"
+                      height="100"
                     />
-                    <img
+                    <Icon
+                      className="hidden h-10 w-auto lg:block"
+                      icon="la:guitar"
+                      color="#4d4d4d"
+                      width="100"
+                      height="100"
+                    />
+
+                    {/* <img
                       className="hidden h-8 w-auto lg:block"
                       src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                       alt="Your Company"
-                    />
+                    /> */}
                   </div>
-                  <div className="hidden   border-2 border-black md:justify-center sm:ml-6 sm:block">
+                  <div className="hidden   md:justify-center sm:ml-6 sm:block">
                     <div className="flex space-x-4 md:place-content-center">
                       {navigation.map((item) => (
                         <a
@@ -58,9 +80,9 @@ const Navbar = () => {
                           href={item.href}
                           className={classNames(
                             item.current
-                              ? "bg-gray-900 text-white"
-                              : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                            "rounded-md px-3 py-2 text-sm font-medium"
+                              ? "color-bg-secondary text-white font-assistant"
+                              : "color-secondary  color-bg-secondary-hover border-b-2 border-color-secondary hover:text-white font-assistant",
+                            " px-3 py-2 text-xl font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}
                         >
@@ -130,7 +152,7 @@ const Navbar = () => {
             </div>
 
             <Disclosure.Panel className="sm:hidden">
-              <div className="space-y-1 px-2 pt-2 pb-3">
+              <div className="space-y-1 px-2 pt-2 pb-3 ">
                 {navigation.map((item) => (
                   <Disclosure.Button
                     key={item.name}
@@ -138,9 +160,9 @@ const Navbar = () => {
                     href={item.href}
                     className={classNames(
                       item.current
-                        ? "bg-gray-900 text-white"
-                        : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                      "block rounded-md px-3 py-2 text-base font-medium"
+                        ? "color-bg-secondary text-white font-assistant"
+                        : "color-secondary hover:bg-gray-700 hover:text-white font-assistant",
+                      "block  px-3 py-2 text-base font-medium"
                     )}
                     aria-current={item.current ? "page" : undefined}
                   >
