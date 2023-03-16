@@ -85,7 +85,7 @@ const IconMail = () => {
       <div className="py-5">
         <a href="mailto:savary.adrien@gmail.com">
           <Icon
-            className=" h-8 w-auto block mx-auto"
+            className=" h-7 w-auto block mx-auto"
             icon="line-md:email"
             color="#000000"
             width="100"

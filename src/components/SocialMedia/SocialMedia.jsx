@@ -73,7 +73,7 @@ const SocialMedia = () => {
       <div className="py-5">
         <a href="https://www.instagram.com/asf_luthier/">
           <Icon
-            className=" h-8 w-auto block mx-auto"
+            className=" h-7 w-auto block mx-auto"
             icon="line-md:instagram"
             color="#000000"
             width="100"
@@ -84,7 +84,7 @@ const SocialMedia = () => {
         <br />
         <a href="https://www.facebook.com/asf.luthier/?_rdc=2&_rdr">
           <Icon
-            className="h-8 w-auto block mx-auto"
+            className="h-7 w-auto block mx-auto"
             icon="line-md:facebook"
             color="#000000"
             width="100"
