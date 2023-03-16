@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../assets/Logo.png";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -18,6 +19,8 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 const Navbar = () => {
+  const router = useRouter();
+  console.log(router.pathname);
   return (
     <div className="ml-5 mr-5 ">
       {/* LOGO */}
@@ -73,27 +76,15 @@ const Navbar = () => {
                       alt="Your Company"
                     /> */}
                   </div>
+                  {}
                   <div className="hidden   md:justify-center sm:ml-6 sm:block">
                     <div className="flex space-x-4 md:place-content-center">
                       {navigation.map((item) => (
-                        // <a
-                        //   key={item.id}
-                        //   href={item.href}
-                        //   className={classNames(
-                        //     item.current
-                        //       ? "color-bg-secondary text-white font-assistant"
-                        //       : "color-secondary  color-bg-secondary-hover border-b-2 border-color-secondary hover:text-white font-assistant",
-                        //     " px-3 py-2 text-xl font-medium"
-                        //   )}
-                        //   aria-current={item.current ? "page" : undefined}
-                        // >
-                        //   {item.name}
-                        // </a>
                         <Link
                           key={item.id}
                           href={item.href}
                           className={classNames(
-                            item.current
+                            router.pathname == item.href
                               ? "color-bg-secondary text-white font-assistant"
                               : "color-secondary  color-bg-secondary-hover border-b-2 border-color-secondary hover:text-white font-assistant",
                             " px-3 py-2 text-xl font-medium"
