@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "@/components/Navbar/Navbar";
 import SocialMedia from "@/components/SocialMedia/SocialMedia";
 import styles from "@/styles/Home.module.css";
+import IconMail from "@/components/IconMail/IconMail";
 
 import Footer from "@/components/Footer/Footer";
 const WebsiteLayout = ({ children }) => {
@@ -16,6 +17,7 @@ const WebsiteLayout = ({ children }) => {
       <Navbar />
       <main className={`${styles.main} relative`}>
         <SocialMedia />
+        <IconMail />
         {children}
       </main>
       <Footer />
