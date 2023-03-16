@@ -2,41 +2,121 @@
   {
     "id": "1",
     "name": "Arias",
-    "length": "650mm",
-    "width": "51mm",
+    "cover-image": "../assets/Arias/Adrien-Savary-Freestone-2019-Arias-Classical-Guitar-2.jpg",
+    "hover-image": "../assets/Arias/Adrien-Savary-Freestone-2019-Arias-Classical-Guitar-10.jpg",
+    "scale-length": "650mm",
+    "top": "Spruce",
+    "weight": "1.05 kg",
+    "nut-width": "51mm",
     "description": "This model is based on a guitar made in 1887 by Arias.Vicente Arias (1833-1914) was an exceptionnal guitar maker, renowned for the quality of his craft as well as the sound of his guitars. His instruments are smaller than traditional classical guitars, they are incredidbly light, but are surprisingly powerful and balanced.",
-    "Pictures-courtesy": ""
+    "Pictures-courtesy": "Siccas Guitars, Karlsruhe, Germany",
+    "image-list": [
+      { "id": "1", "src": "" },
+      { "id": "2", "src": "" },
+      { "id": "3", "src": "" },
+      { "id": "4", "src": "" },
+      { "id": "5", "src": "" },
+      { "id": "6", "src": "" },
+      { "id": "7", "src": "" },
+      { "id": "8", "src": "" },
+      { "id": "9", "src": "" },
+      { "id": "10", "src": "" }
+    ]
   },
   {
     "id": "2",
     "name": "Bouchet",
-    "length": "650mm",
-    "width": "52mm",
+    "cover-image": "../assets/Bouchet/Adrien-Savary-Freestone-2019-18.jpg",
+    "hover-image": "../assets/Bouchet/Adrien-Savary-Freestone-2019-21.jpg",
+    "scale-length": "650mm",
+    "top": "Spruce",
+    "weight": "1.50 kg",
+    "nut-width": "52mm",
     "description": "This model is based on a guitar made in 1972 by Bouchet.Robert Bouchet (1898-1986) is one of the most important French luthiers of the twentieth century. He developped the \"barre d'âme\", a bracing below the bridge, perpendicular to the grain. His instruments are quite large but still relatively light, they are very balanced, and have clear and full trebbles.",
-    "Pictures-courtesy": ""
+    "Pictures-courtesy": "Siccas Guitars, Karlsruhe, Germany",
+    "image-list": [
+      { "id": "1", "src": "" },
+      { "id": "2", "src": "" },
+      { "id": "3", "src": "" },
+      { "id": "4", "src": "" },
+      { "id": "5", "src": "" },
+      { "id": "6", "src": "" },
+      { "id": "7", "src": "" },
+      { "id": "8", "src": "" },
+      { "id": "9", "src": "" },
+      { "id": "10", "src": "" }
+    ]
   },
   {
     "id": "3",
     "name": "Garcia",
-    "length": "650mm",
-    "width": "51mm",
+    "cover-image": "../assets/García/Adrien_Garcia_01.jpg",
+    "hover-image": "../assets/García/Adrien_Garcia_03.jpg",
+    "scale-length": "650mm",
+    "top": "Spruce",
+    "weight": "1.40 kg",
+    "nut-width": "51mm",
     "description": "This model is based on a guitar made in 1917 by García.Enrique García (1868-1922) is considered as the founder of the “Barcelona school”, or “Catalan” style of guitar making. He developped the asymmetrical fan bracing, his instruments feature eight struts (instead of the traditional seven), with the additional bracing on the \"trebble\" side of the soundboard. The original guitar from 1917 belongs to Catherine Marlat's collection in Paris. It is one of my favourite instruments, with an incredibly colourful, warm and full sound. Although it is not a particularly loud instrument, I would highly recommand this model if you are looking for a complex and rich sound.",
-    "Pictures-courtesy": "Alberto Martinez"
+    "Pictures-courtesy": "Alberto Martinez",
+    "image-list": [
+      { "id": "1", "src": "" },
+      { "id": "2", "src": "" },
+      { "id": "3", "src": "" },
+      { "id": "4", "src": "" },
+      { "id": "5", "src": "" },
+      { "id": "6", "src": "" },
+      { "id": "7", "src": "" },
+      { "id": "8", "src": "" },
+      { "id": "9", "src": "" },
+      { "id": "10", "src": "" }
+    ]
   },
   {
     "id": "4",
     "name": "Lacote",
-    "length": "630mm",
-    "width": "48mm",
+    "cover-image": "../assets/Lacote/Adrien_Lacote_01.jpg",
+    "hover-image": "../assets/Lacote/Adrien_Lacote_03.jpg",
+    "sacle-length": "630mm",
+    "top": "Spruce",
+    "weight": "1.00 kg",
+    "nut-width": "48mm",
     "description": "This model is based on a guitar made in 1917 by García.Enrique García (1868-1922) is considered as the founder of the “Barcelona school”, or “Catalan” style of guitar making. He developped the asymmetrical fan bracing, his instruments feature eight struts (instead of the traditional seven), with the additional bracing on the \"trebble\" side of the soundboard. The original guitar from 1917 belongs to Catherine Marlat's collection in Paris. It is one of my favourite instruments, with an incredibly colourful, warm and full sound. Although it is not a particularly loud instrument, I would highly recommand this model if you are looking for a complex and rich sound.",
-    "Pictures-courtesy": "Alberto Martinez"
+    "Pictures-courtesy": "Alberto Martinez",
+    "image-list": [
+      { "id": "1", "src": "" },
+      { "id": "2", "src": "" },
+      { "id": "3", "src": "" },
+      { "id": "4", "src": "" },
+      { "id": "5", "src": "" },
+      { "id": "6", "src": "" },
+      { "id": "7", "src": "" },
+      { "id": "8", "src": "" },
+      { "id": "9", "src": "" },
+      { "id": "10", "src": "" }
+    ]
   },
   {
-    "id": "4",
+    "id": "5",
     "name": "Torres",
-    "length": "650mm",
-    "width": "51mm",
-    "description": "TThis model is based on the SE69 guitar made in 1884 by Torres. Antonio de Torres (1817-1892) can be considered as the \"father\" of the Spanish classical guitar, developping the \"fan bracing\" system. His instruments are light, have a very thin top, and are characterised by a \"percussive\" bass, warm trebbles, and an overall very \"round\" sound. The pictures hereafter show pegheads, but I can of course build an instrument with machine heads, following the head design of the Torres SE43 that I was able to examin in the musical intrument museum in Paris.",
-    "Pictures-courtesy": ""
+    "cover-image": "../assets/Torres/sans titre-682-Modifier-3.jpg",
+    "hover-image": "../assets/Torres/sans titre-708-Modifier-2.jpg",
+    "scale-length": "650mm",
+    "top": "Spruce",
+    "weight": "1.30 kg",
+    "nut-width": "51mm",
+    "description": "This model is based on the SE69 guitar made in 1884 by Torres. Antonio de Torres (1817-1892) can be considered as the \"father\" of the Spanish classical guitar, developping the \"fan bracing\" system. His instruments are light, have a very thin top, and are characterised by a \"percussive\" bass, warm trebbles, and an overall very \"round\" sound. The pictures hereafter show pegheads, but I can of course build an instrument with machine heads, following the head design of the Torres SE43 that I was able to examin in the musical intrument museum in Paris.",
+    "Pictures-courtesy": "Eliot Mini",
+    "image-list": [
+      { "id": "1", "src": "" },
+      { "id": "2", "src": "" },
+      { "id": "3", "src": "" },
+      { "id": "4", "src": "" },
+      { "id": "5", "src": "" },
+      { "id": "6", "src": "" },
+      { "id": "7", "src": "" },
+      { "id": "8", "src": "" },
+      { "id": "9", "src": "" },
+      { "id": "10", "src": "" }
+    ]
   }
 ]
