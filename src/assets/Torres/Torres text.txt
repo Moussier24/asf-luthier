@@ -1,8 +1,0 @@
-This model is based on the SE69 guitar made in 1884 by Torres.
-Antonio de Torres (1817-1892) can be considered as the "father" of the Spanish classical guitar, developping the "fan bracing" system. 
-His instruments are light, have a very thin top, and are characterised by a "percussive" bass, warm trebbles, and an overall very "round" sound.
-
-The pictures hereafter show pegheads, but I can of course build an instrument with machine heads, following the head design of the Torres SE43 that I was able to examin in the musical intrument museum in Paris.
-
-Scale length: 650mm
-Nut width: 51mm
