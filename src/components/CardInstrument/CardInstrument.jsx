@@ -95,7 +95,7 @@ const CardInstrument = () => {
         </a>
         <div className="p-5 text-center">
           <a href="#">
-            <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-black">
               Arias
             </h5>
           </a>
