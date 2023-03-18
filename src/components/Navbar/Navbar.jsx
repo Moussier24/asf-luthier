@@ -25,6 +25,7 @@ const Navbar = () => {
     <div className="ml-5 mr-5 ">
       {/* LOGO */}
       <Image className="mx-auto" src={Logo} alt="icone-guitare" />
+
       {/* MENU */}
       <Disclosure
         as="nav"

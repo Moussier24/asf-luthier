@@ -65,18 +65,6 @@ const IconMail = () => {
         <span className="border-1 w-0.5 border-black"></span>
         <span className="border-1 w-0.5 border-black"></span>
         <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>{" "}
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>{" "}
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>{" "}
-        <span className="border-1 w-0.5 border-black"></span>
         <span className="border-1 w-0.5 border-black"></span>
         <span className="border-1 w-0.5 border-black"></span>
         <span className="border-1 w-0.5 border-black"></span>
@@ -92,23 +80,19 @@ const IconMail = () => {
             height="100"
           />
         </a>
+        <br />
+        <a href="tel:+33785392044">
+          <Icon
+            className="h-8 ml-1 w-100% block mx-auto"
+            icon="line-md:account-add"
+            color="#000000"
+            width="100"
+            height="100"
+          />
+        </a>
       </div>
       <div className="flex flex-col w-1 mx-auto">
         <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>{" "}
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>{" "}
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>
-        <span className="border-1 w-0.5 border-black"></span>{" "}
         <span className="border-1 w-0.5 border-black"></span>
         <span className="border-1 w-0.5 border-black"></span>
         <span className="border-1 w-0.5 border-black"></span>
