@@ -13,7 +13,12 @@ const instruments = () => {
         {data.map((data) => {
           console.log(data.name);
           return (
-            <CardInstrument key={data.id} name={data.name} cover={data.cover} />
+            <CardInstrument
+              key={data.id}
+              name={data.name}
+              cover={data.cover}
+              id={data.id}
+            />
           );
         })}
       </div>
