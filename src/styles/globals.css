@@ -199,13 +199,28 @@ img {
   transform: translateX(-50%);
 }
 .gallery__thumb {
-  padding-top: 120px;
+  padding-top: 250px;
   margin: 6px;
   display: block;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .gallery__thumb {
-    padding-top: 20px;
+    padding-top: 140px;
+    margin: 6px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .gallery__thumb {
+    padding-top: 90px;
+    margin: 6px;
+    display: block;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .gallery__thumb {
+    padding-top: 10px;
     margin: 6px;
     display: block;
   }

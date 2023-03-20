@@ -25,8 +25,8 @@ const id = () => {
             className="gallery__img "
             src={cover}
             alt=""
-            width={700}
-            height={700}
+            width={800}
+            height={800}
           />
           <label htmlFor="img-1" className="gallery__thumb">
             <Image src={cover} alt="" width={100} height={100} />
