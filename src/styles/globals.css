@@ -184,7 +184,6 @@ img {
   width: 95%;
   position: relative;
   padding-top: 66.6666666667%;
-  
 }
 @media screen and (min-width: 600px) {
   .gallery {
@@ -197,14 +196,19 @@ img {
   left: 50%;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  transform: translateX(-50%)
-
+  transform: translateX(-50%);
 }
 .gallery__thumb {
-  padding-top: 10px;
+  padding-top: 120px;
   margin: 6px;
   display: block;
-  
+}
+@media only screen and (max-width: 600px) {
+  .gallery__thumb {
+    padding-top: 20px;
+    margin: 6px;
+    display: block;
+  }
 }
 .gallery__selector {
   position: absolute;
