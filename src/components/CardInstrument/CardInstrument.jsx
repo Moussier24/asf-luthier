@@ -3,7 +3,18 @@ import { Icon } from "@iconify/react";
 import Link from "next/link";
 import Image from "next/image";
 
-const CardInstrument = ({ name, cover, id }) => {
+const CardInstrument = ({
+  id,
+  name,
+  cover,
+  length,
+  categorie,
+  top,
+  width,
+  description,
+  picturesCourtesy,
+  imageList,
+}) => {
   return (
     <div>
       <div className="w-40 m-1 bg-white border border-gray-200 rounded-lg shadow  ">
@@ -25,7 +36,18 @@ const CardInstrument = ({ name, cover, id }) => {
           <Link
             href={{
               pathname: `/models/${id}`,
-              query: { id: id, name: name },
+              query: {
+                id: id,
+                name: name,
+                cover: cover,
+                categorie: categorie,
+                length: length,
+                top: top,
+                width: width,
+                description: description,
+                picturesCourtesy: picturesCourtesy,
+                imageList: imageList,
+              },
             }}
             as={`/models/${id}`}
             className="inline-flex  items-center px-3 py-2 transition-all hover:border-color-secondary text-sm hover:bg-color-secondary hover:text-white font-medium text-center text-color-secondary bg-transparent  border-1 border-black focus:ring-4 focus:outline-none"

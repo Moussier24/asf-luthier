@@ -22,6 +22,14 @@ const instruments = () => {
               name={data.name}
               cover={data.cover}
               id={data.id}
+              categorie={data.categorie}
+              length={data.scaleLength}
+              top={data.top}
+              weight={data.weight}
+              width={data.nutWidth}
+              description={data.description}
+              picturesCourtesy={data.picturesCourtesy}
+              imageList={data.imageList}
             />
           ) : (
             ""
@@ -40,6 +48,14 @@ const instruments = () => {
               name={data.name}
               cover={data.cover}
               id={data.id}
+              categorie={data.categorie}
+              length={data.scaleLength}
+              top={data.top}
+              weight={data.weight}
+              width={data.nutWidth}
+              description={data.description}
+              picturesCourtesy={data.picturesCourtesy}
+              imageList={data.imageList}
             />
           ) : (
             ""
