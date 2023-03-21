@@ -18,7 +18,11 @@
       { "id": "2", "src": "/instruments/Arias/Arias-1.jpg" },
       { "id": "3", "src": "/instruments/Arias/Arias-2.jpg" },
       { "id": "4", "src": "/instruments/Arias/Arias-3.jpg" },
-      { "id": "5", "src": "/instruments/Arias/Arias-4.jpg" }
+      { "id": "5", "src": "/instruments/Arias/Arias-4.jpg" },
+      { "id": "6", "src": "/instruments/Arias/Arias-5.jpg" },
+      { "id": "7", "src": "/instruments/Arias/Arias-6.jpg" },
+      { "id": "8", "src": "/instruments/Arias/Arias-7.jpg" },
+      { "id": "9", "src": "/instruments/Arias/Arias-8.jpg" }
     ]
   },
   {
@@ -46,7 +50,10 @@
       { "id": "2", "src": "/instruments/Bouchet/Bouchet-1.jpg" },
       { "id": "3", "src": "/instruments/Bouchet/Bouchet-2.jpg" },
       { "id": "4", "src": "/instruments/Bouchet/Bouchet-3.jpg" },
-      { "id": "5", "src": "/instruments/Bouchet/Bouchet-4.jpg" }
+      { "id": "5", "src": "/instruments/Bouchet/Bouchet-4.jpg" },
+      { "id": "6", "src": "/instruments/Bouchet/Bouchet-5.jpg" },
+      { "id": "7", "src": "/instruments/Bouchet/Bouchet-6.jpg" },
+      { "id": "8", "src": "/instruments/Bouchet/Bouchet-7.jpg" }
     ]
   },
   {
