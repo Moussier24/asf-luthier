@@ -9,7 +9,7 @@ const instruments = () => {
   // console.log(models);
   return (
     <WebsiteLayout>
-      <h2 className="text-2xl m-5 p-5 border-b-1 border-black font-bold">
+      <h2 className="text-2xl text-black text-center m-5 p-5 border-b-1 border-black font-bold">
         Classical Guitars - Past Masters models
       </h2>
       <div className="flex p-1 flex-wrap justify-center border-l-2 border-r-2 border-black w-80vw">
@@ -36,7 +36,7 @@ const instruments = () => {
           );
         })}
       </div>
-      <h2 className="text-2xl m-5 p-5 border-b-1 border-black font-bold">
+      <h2 className="text-2xl m-5 text-black text-center p-5 border-b-1 border-black font-bold">
         Romantic Guitar
       </h2>
       <div className="flex p-1 flex-wrap justify-center border-l-2 border-r-2 border-black w-80vw">
