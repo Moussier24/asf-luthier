@@ -202,7 +202,7 @@ const id = () => {
         <br />
         <br />
         <span className="text-black">
-          Pictures Courtesy : {picturesCourtesy}
+          Pictures Courtesy of {picturesCourtesy}
         </span>
       </div>
     </WebsiteLayout>
