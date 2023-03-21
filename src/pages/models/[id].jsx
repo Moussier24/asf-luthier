@@ -63,7 +63,7 @@ const id = () => {
           </label>
         </div>
 
-        {onlyimage.map((data) => {
+        {onlyimage?.map((data) => {
           return (
             <div key={data.id} className="gallery__item">
               <input
