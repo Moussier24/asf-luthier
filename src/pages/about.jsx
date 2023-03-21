@@ -25,7 +25,7 @@ const about = () => {
             soon realised he wanted to become an instrument maker. He visited
             Parisian luthiers, and following their advice, trained as a
             cabinetmaker at "La Bonne Graine", a school in Paris. His teachers
-            were very enthousiastic about his workand encouraged him to
+            were very enthousiastic about his work and encouraged him to
             continue. In 2014, Adrien graduated with a degree in Cabinet Making,
             then moved to Newark, U.K. to study guitar making. Under the
             guidance of his teachers James Lister and Adrien Lucas, he built his
