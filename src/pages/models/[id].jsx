@@ -188,7 +188,7 @@ const id = () => {
       <h3 className="text-xl font-bold text-black">Categorie</h3>
       <span className="text-black">{categorie}</span>
       <h3 className="text-xl font-bold text-black ">Description</h3>
-      <p className="m-2 md:w-40vw sm:w-70vw text-center text-black border-2 border-black">
+      <p className="m-2 md:w-40vw sm:w-70vw text-center text-black ">
         {description}
       </p>
       <h3 className="text-xl font-bold text-black">Details</h3>
