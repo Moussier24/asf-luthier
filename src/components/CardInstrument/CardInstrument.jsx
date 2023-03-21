@@ -52,15 +52,9 @@ const CardInstrument = ({
               },
             }}
             as={`/models/${id}`}
-            className="inline-flex text-xl  items-center px-3 py-2 transition-all hover:border-color-secondary text-sm hover:bg-color-secondary hover:text-white font-medium text-center text-color-secondary bg-transparent  border-1 border-black focus:ring-4 focus:outline-none"
+            className="inline-flex rounded  items-center px-3 py-2 transition-all hover:border-color-secondary text-sm hover:bg-color-secondary hover:text-white font-medium text-center text-color-secondary bg-transparent  border-1 border-black focus:ring-4 focus:outline-none"
           >
-            View
-            <Icon
-              className="ml-1"
-              icon="line-md:arrow-small-right"
-              width="20"
-              height="20"
-            />
+            <Icon icon="line-md:arrow-small-right" width="25" height="25" />
           </Link>
         </div>
       </div>
