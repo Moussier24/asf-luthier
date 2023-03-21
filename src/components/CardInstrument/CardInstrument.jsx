@@ -19,7 +19,25 @@ const CardInstrument = ({
   return (
     <div>
       <div className="w-60 m-1 bg-white border border-gray-200 rounded-lg shadow  ">
-        <a href="#">
+        <Link
+          href={{
+            pathname: `/models/${id}`,
+            query: {
+              id: id,
+              name: name,
+              cover: cover,
+              categorie: categorie,
+              length: length,
+              top: top,
+              weight: weight,
+              width: width,
+              description: description,
+              picturesCourtesy: picturesCourtesy,
+              images: images,
+            },
+          }}
+          as={`/models/${id}`}
+        >
           <Image
             className="rounded-t-lg w-100% mt-5"
             src={cover}
@@ -27,13 +45,31 @@ const CardInstrument = ({
             width={300}
             height={300}
           />
-        </a>
+        </Link>
         <div className="p-5 text-center">
-          <a href="#">
+          <Link
+            href={{
+              pathname: `/models/${id}`,
+              query: {
+                id: id,
+                name: name,
+                cover: cover,
+                categorie: categorie,
+                length: length,
+                top: top,
+                weight: weight,
+                width: width,
+                description: description,
+                picturesCourtesy: picturesCourtesy,
+                images: images,
+              },
+            }}
+            as={`/models/${id}`}
+          >
             <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-color-secondary">
               {name}
             </h5>
-          </a>
+          </Link>
           <Link
             href={{
               pathname: `/models/${id}`,
