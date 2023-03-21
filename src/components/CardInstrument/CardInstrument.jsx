@@ -18,14 +18,14 @@ const CardInstrument = ({
 }) => {
   return (
     <div>
-      <div className="w-40 m-1 bg-white border border-gray-200 rounded-lg shadow  ">
+      <div className="w-60 m-1 bg-white border border-gray-200 rounded-lg shadow  ">
         <a href="#">
           <Image
             className="rounded-t-lg w-100% mt-5"
             src={cover}
             alt="Guitar Modele"
-            width={100}
-            height={100}
+            width={300}
+            height={300}
           />
         </a>
         <div className="p-5 text-center">
@@ -52,7 +52,7 @@ const CardInstrument = ({
               },
             }}
             as={`/models/${id}`}
-            className="inline-flex  items-center px-3 py-2 transition-all hover:border-color-secondary text-sm hover:bg-color-secondary hover:text-white font-medium text-center text-color-secondary bg-transparent  border-1 border-black focus:ring-4 focus:outline-none"
+            className="inline-flex text-xl  items-center px-3 py-2 transition-all hover:border-color-secondary text-sm hover:bg-color-secondary hover:text-white font-medium text-center text-color-secondary bg-transparent  border-1 border-black focus:ring-4 focus:outline-none"
           >
             View
             <Icon
