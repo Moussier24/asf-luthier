@@ -80,7 +80,6 @@ const SocialMedia = () => {
             height="100"
           />
         </a>
-
         <br />
         <a href="https://www.facebook.com/asf.luthier/?_rdc=2&_rdr">
           <Icon

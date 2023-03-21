@@ -10,10 +10,11 @@ const CardInstrument = ({
   length,
   categorie,
   top,
+  weight,
   width,
   description,
   picturesCourtesy,
-  imageList,
+  images,
 }) => {
   return (
     <div>
@@ -43,10 +44,11 @@ const CardInstrument = ({
                 categorie: categorie,
                 length: length,
                 top: top,
+                weight: weight,
                 width: width,
                 description: description,
                 picturesCourtesy: picturesCourtesy,
-                imageList: imageList,
+                images: images,
               },
             }}
             as={`/models/${id}`}

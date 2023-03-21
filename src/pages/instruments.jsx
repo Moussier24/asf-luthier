@@ -4,7 +4,7 @@ import CardInstrument from "@/components/CardInstrument/CardInstrument";
 import data from "../json/data.json";
 
 const instruments = () => {
-  // let stringify = JSON.stringify(data);
+  // let stringify = JSON.stringify(item);
   // let models = JSON.parse(stringify);
   // console.log(models);
   return (
@@ -13,23 +13,23 @@ const instruments = () => {
         Classical Guitars - Past Masters models
       </h2>
       <div className="flex p-1 flex-wrap justify-center border-l-2 border-r-2 border-black w-80vw">
-        {data.map((data) => {
-          console.log(data.name);
-          return data.categorie ===
+        {data.map((item) => {
+          // console.log(item.images);
+          return item.categorie ===
             "Classical Guitars - Past Masters models" ? (
             <CardInstrument
-              key={data.id}
-              name={data.name}
-              cover={data.cover}
-              id={data.id}
-              categorie={data.categorie}
-              length={data.scaleLength}
-              top={data.top}
-              weight={data.weight}
-              width={data.nutWidth}
-              description={data.description}
-              picturesCourtesy={data.picturesCourtesy}
-              imageList={data.imageList}
+              key={item.id}
+              name={item.name}
+              cover={item.cover}
+              id={item.id}
+              categorie={item.categorie}
+              length={item.scaleLength}
+              top={item.top}
+              weight={item.weight}
+              width={item.nutWidth}
+              description={item.description}
+              picturesCourtesy={item.picturesCourtesy}
+              images={item.images}
             />
           ) : (
             ""
@@ -40,22 +40,21 @@ const instruments = () => {
         Romantic Guitar
       </h2>
       <div className="flex p-1 flex-wrap justify-center border-l-2 border-r-2 border-black w-80vw">
-        {data.map((data) => {
-          console.log(data.name);
-          return data.categorie === "Romantic Guitar" ? (
+        {data.map((item) => {
+          return item.categorie === "Romantic Guitar" ? (
             <CardInstrument
-              key={data.id}
-              name={data.name}
-              cover={data.cover}
-              id={data.id}
-              categorie={data.categorie}
-              length={data.scaleLength}
-              top={data.top}
-              weight={data.weight}
-              width={data.nutWidth}
-              description={data.description}
-              picturesCourtesy={data.picturesCourtesy}
-              imageList={data.imageList}
+              key={item.id}
+              name={item.name}
+              cover={item.cover}
+              id={item.id}
+              categorie={item.categorie}
+              length={item.scaleLength}
+              top={item.top}
+              weight={item.weight}
+              width={item.nutWidth}
+              description={item.description}
+              picturesCourtesy={item.picturesCourtesy}
+              images={item.images}
             />
           ) : (
             ""
