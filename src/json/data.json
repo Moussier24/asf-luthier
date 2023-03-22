@@ -102,7 +102,7 @@
     "cover": "/instruments/Lacote/Lacote.jpg",
     "hover": "/instruments/Lacote/Lacote-1.jpg",
     "categorie": "Romantic Guitar",
-    "scale-length": "630mm",
+    "scaleLength": "630mm",
     "top": "Spruce",
     "weight": "1.00 kg",
     "nutWidth": "48mm",
