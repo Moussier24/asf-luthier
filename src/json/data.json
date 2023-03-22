@@ -9,7 +9,7 @@
     "top": "Spruce",
     "weight": "1.30 kg",
     "nutWidth": "51mm",
-    "description": "This model is based on the SE69 guitar made in 1884 by Torres. Antonio de Torres (1817-1892) can be considered as the \"father\" of the Spanish classical guitar, developping the \"fan bracing\" system. His instruments are light, have a very thin top, and are characterised by a \"percussive\" bass, warm trebbles, and an overall very \"round\" sound. The pictures hereafter show pegheads, but I can of course build an instrument with machine heads, following the head design of the Torres SE43 that I was able to examin in the musical intrument museum in Paris.",
+    "description": "This model is based on the SE69 guitar made in 1884 by Torres.\nAntonio de Torres (1817-1892) can be considered as the \"father\" of the Spanish classical guitar, developping the \"fan bracing\" system. His instruments are light, have a very thin top, and are characterised by a \"percussive\" bass, warm trebbles, and an overall very \"round\" sound. The pictures hereafter show pegheads, but I can of course build an instrument with machine heads, following the head design of the Torres SE43 that I was able to examin in the musical intrument museum in Paris.",
     "picturesCourtesy": "Eliot Mini",
     "images": [
       { "id": "1", "src": "/instruments/Torres/Torres.jpg" },
@@ -31,7 +31,7 @@
     "top": "Spruce",
     "weight": "1.05 kg",
     "nutWidth": "51mm",
-    "description": "This model is based on a guitar made in 1887 by Arias.Vicente Arias (1833-1914) was an exceptionnal guitar maker, renowned for the quality of his craft as well as the sound of his guitars. His instruments are smaller than traditional classical guitars, they are incredidbly light, but are surprisingly powerful and balanced.",
+    "description": "This model is based on a guitar made in 1887 by Arias.Vicente Arias (1833-1914) was an exceptionnal guitar maker, renowned for the quality of his craft as well as the sound of his guitars. His instruments are smaller than traditional classical guitars, they are incredibly light, but are surprisingly powerful and balanced.",
     "picturesCourtesy": "Siccas Guitars, Karlsruhe, Germany",
     "images": [
       { "id": "1", "src": "/instruments/Arias/Arias.jpg" },
@@ -55,7 +55,7 @@
     "top": "Spruce",
     "weight": "1.40 kg",
     "nutWidth": "51mm",
-    "description": "This model is based on a guitar made in 1917 by García.Enrique García (1868-1922) is considered as the founder of the “Barcelona school”, or “Catalan” style of guitar making. He developped the asymmetrical fan bracing, his instruments feature eight struts (instead of the traditional seven), with the additional bracing on the \"trebble\" side of the soundboard. The original guitar from 1917 belongs to Catherine Marlat's collection in Paris. It is one of my favourite instruments, with an incredibly colourful, warm and full sound. Although it is not a particularly loud instrument, I would highly recommand this model if you are looking for a complex and rich sound.",
+    "description": "This model is based on a guitar made in 1917 by García. Enrique García (1868-1922) is considered as the founder of the “Barcelona school”, or “Catalan” style of guitar making. He developped the asymmetrical fan bracing, his instruments feature eight struts (instead of the traditional seven), with the additional bracing on the \"trebble\" side of the soundboard. The original guitar from 1917 belongs to Catherine Marlat's collection in Paris. It is one of my favourite instruments, with an incredibly colourful, warm and full sound. Although it is not a particularly loud instrument, I would highly recommand this model if you are looking for a complex and rich sound.",
     "picturesCourtesy": "Alberto Martinez",
     "images": [
       { "id": "1", "src": "/instruments/García/García.jpg" },
@@ -106,7 +106,7 @@
     "top": "Spruce",
     "weight": "1.00 kg",
     "nutWidth": "48mm",
-    "description": "This model is based on a guitar made in 1826 by Lacote. Pierre René Lacote (1785-1871) is the most important luthier of the French Romantic style of guitar making. He had first been a goldsmith, which may explain why his instruments were exceptionnally well made, with a special attention to every detail. Lacote has build guitars for professional musicians and composers, such as Ferdinando Carulli and Fernando Sor. The original guitar from 1826 belongs to Catherine Marlat's collection in Paris.",
+    "description": "This model is based on a guitar made in 1826 by Lacote. Pierre René Lacote (1785-1871) is the most important luthier of the French Romantic style of guitar making. He had first been a goldsmith, which may explain why his instruments were exceptionnally well made, with a special attention to every detail. Lacote has built guitars for professional musicians and composers, such as Ferdinando Carulli and Fernando Sor. The original guitar from 1826 belongs to Catherine Marlat's collection in Paris.",
     "picturesCourtesy": "Alberto Martinez",
     "images": [
       { "id": "1", "src": "/instruments/Lacote/Lacote.jpg" },

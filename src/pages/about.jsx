@@ -31,7 +31,7 @@ const about = () => {
             guidance of his teachers James Lister and Adrien Lucas, he built his
             first instrument, a Spanish-style classical guitar. Although he
             learned how to make several types of instruments (classical guitars,
-            acoustic guitars, violins, etc.),it was soon obvious that Spanish
+            acoustic guitars, violins, etc.), it was soon obvious that Spanish
             classical guitars were his favourite instruments. Newark College was
             then part of the "Leonardo Project", a European program that aimed
             to use environmentally friendly local and renewable materials in

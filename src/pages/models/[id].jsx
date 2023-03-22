@@ -182,28 +182,34 @@ const id = () => {
         </div>*/}
       </section>
       {/* DETAILs */}
-      <h2 className="text-2xl text-black m-5 p-5 border-b-1 border-black font-bold">
+      <h2 className="text-2xl text-color-secondary m-5 p-5 border-b-1 border-black font-bold">
         {name}
       </h2>
-      <h3 className="text-xl font-bold text-black">Categorie</h3>
-      <span className="text-black text-lg">{categorie}</span>
-      <h3 className="text-xl font-bold text-black ">Description</h3>
-      <p className="m-2 md:w-40vw sm:w-70vw text-lg text-center text-black ">
+      <h3 className="text-xl font-bold text-color-secondary">Categorie</h3>
+      <span className="text-color-secondary text-lg">{categorie}</span>
+      <h3 className="text-xl font-bold text-color-secondary ">Description</h3>
+      <p className="m-2 md:w-40vw sm:w-70vw text-lg text-center text-color-secondary ">
         {description}
       </p>
-      <h3 className="text-xl font-bold text-black">Details</h3>
-      <div className="container-details text-center text-black">
-        <span className="text-black text-lg"> Nut-width :{width}</span>
+      <h3 className="text-xl font-bold text-color-secondary">Details</h3>
+      <div className="container-details text-center text-color-secondary">
+        <span className="text-color-secondary text-lg">
+          {" "}
+          Nut width: {width}
+        </span>
         <br />
-        <span className="text-black text-lg"> Scale-length :{length}</span>
+        <span className="text-color-secondary text-lg">
+          {" "}
+          Scale length: {length}
+        </span>
         <br />
-        <span className="text-black text-lg"> Weight :{weight}</span>
+        <span className="text-color-secondary text-lg"> Weight: {weight}</span>
         <br />
-        <span className="text-black text-lg"> Top :{top}</span>
+        <span className="text-color-secondary text-lg"> Top: {top}</span>
         <br />
         <br />
         <br />
-        <span className="text-black text-lg">
+        <span className="text-color-secondary text-lg">
           Pictures Courtesy of {picturesCourtesy}
         </span>
       </div>
