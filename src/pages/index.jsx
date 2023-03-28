@@ -3,12 +3,13 @@ import { Inter } from "next/font/google";
 import Guitar from "../assets/Adrien_Garcia_montage.jpg";
 import WebsiteLayout from "@/layouts/WebsiteLayout";
 const inter = Inter({ subsets: ["latin"] });
-
+import Loader from "@/components/Loader/Loader";
 export default function Home() {
   return (
     <>
+      <Loader />
       <WebsiteLayout>
-        <div className=" container-image-home 2xl:w-40vw xl:w-50vw sm:w-50vw ">
+        <div className=" layout container-image-home 2xl:w-40vw xl:w-50vw sm:w-50vw ">
           <div className="container-image ">
             <Image
               className="border-1 border-black shadow w-100%"

@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import SocialMedia from "@/components/SocialMedia/SocialMedia";
 import styles from "@/styles/Home.module.css";
 import IconMail from "@/components/IconMail/IconMail";
-
+import Loader from "@/components/Loader/Loader";
 import Footer from "@/components/Footer/Footer";
 const WebsiteLayout = ({ children }) => {
   return (

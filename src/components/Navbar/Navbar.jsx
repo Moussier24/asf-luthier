@@ -20,7 +20,6 @@ function classNames(...classes) {
 }
 const Navbar = () => {
   const router = useRouter();
-  console.log(router.pathname);
   return (
     <div className="ml-5 mr-5 ">
       {/* LOGO */}

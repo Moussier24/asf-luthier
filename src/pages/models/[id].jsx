@@ -7,6 +7,7 @@ import Image from "next/image";
 
 const id = () => {
   let router = useRouter();
+
   const {
     id,
     name,
@@ -28,10 +29,12 @@ const id = () => {
         album = array[i];
       }
     }
+
     return album;
   }
   const pictures = findAlbum(pics);
   const onlyimage = pictures.images;
+
   console.log(onlyimage);
 
   return (
