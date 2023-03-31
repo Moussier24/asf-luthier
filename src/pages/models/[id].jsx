@@ -254,7 +254,7 @@ export async function getStaticProps(context) {
   // }
 
   // let data2 = data[slug];
-  let filter = data.filter((element) => element.id.toString() === slug);
+  let filter = data.filter((element) => element.id === slug);
   return {
     // Passed to the page component as props
     props: { data: filter || null },
