@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import WebsiteLayout from "@/layouts/WebsiteLayout";
 import pics from "../../json/images.json";
 import Image from "next/image";
-import { data } from "../../json/data.jsx";
+import modelsList from "../../json/data.json";
 
 const id = ({ data }) => {
   console.log(data);
@@ -225,24 +225,6 @@ const id = ({ data }) => {
   );
 };
 
-// pages/posts/[id].js
-
-// Generates `/posts/1` and `/posts/2`
-export async function getStaticPaths() {
-  // const parse = JSON.parse(data);
-  let alldata = data;
-  const paths = alldata.map((path) => {
-    return {
-      params: { id: path.id.toString() },
-    };
-  });
-
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context) {
   const slug = context.params.id;
@@ -253,11 +235,27 @@ export async function getStaticProps(context) {
   //   };
   // }
 
-  // let data2 = data[slug];
-  let filter = data.filter((element) => element.id === slug);
+  let filter = modelsList.find((element) => element.id === slug);
   return {
     // Passed to the page component as props
     props: { data: filter || null },
+  };
+}
+
+// pages/posts/[id].js
+
+// Generates `/posts/1` and `/posts/2`
+export async function getStaticPaths() {
+  const data2 = JSON.parse(modelsList);
+  const paths = data2.map((path) => {
+    return {
+      params: { id: path.id.toString() },
+    };
+  });
+
+  return {
+    paths,
+    fallback: false,
   };
 }
 
