@@ -253,11 +253,11 @@ export async function getStaticProps(context) {
   //   };
   // }
 
-  let data2 = data[slug];
-  // data = data.filter((p) => p.id.toString() === id);
+  // let data2 = data[slug];
+  let filter = data.filter((element) => element.id.toString() === slug);
   return {
     // Passed to the page component as props
-    props: { data: data2 || null },
+    props: { data: filter || null },
   };
 }
 
