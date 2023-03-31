@@ -225,6 +225,24 @@ const id = ({ data }) => {
   );
 };
 
+// pages/posts/[id].js
+
+// Generates `/posts/1` and `/posts/2`
+export async function getStaticPaths() {
+  // const parse = JSON.parse(data);
+  let alldata = data;
+  const paths = alldata.map((path) => {
+    return {
+      params: { id: path.id.toString() },
+    };
+  });
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context) {
   const slug = context.params.id;
@@ -240,24 +258,6 @@ export async function getStaticProps(context) {
   return {
     // Passed to the page component as props
     props: { data: filter || null },
-  };
-}
-
-// pages/posts/[id].js
-
-// Generates `/posts/1` and `/posts/2`
-export async function getStaticPaths() {
-  // const parse = JSON.parse(data);
-  let data2 = data;
-  const paths = data2.map((path) => {
-    return {
-      params: { id: path.id.toString() },
-    };
-  });
-
-  return {
-    paths,
-    fallback: false,
   };
 }
 
