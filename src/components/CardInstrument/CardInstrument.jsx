@@ -37,6 +37,7 @@ const CardInstrument = ({
             },
           }}
           as={`/models/${id}`}
+          passHref={true}
         >
           <Image
             className="rounded-t-lg w-100% mt-5"

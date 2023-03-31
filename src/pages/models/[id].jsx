@@ -2,40 +2,42 @@ import React from "react";
 import { useRouter } from "next/router";
 import WebsiteLayout from "@/layouts/WebsiteLayout";
 import pics from "../../json/images.json";
-
 import Image from "next/image";
+import { data } from "../../json/data.jsx";
 
-const id = () => {
-  let router = useRouter();
-
-  const {
-    id,
-    name,
-    cover,
-    categorie,
-    length,
-    top,
-    weight,
-    width,
-    description,
-    picturesCourtesy,
-    images,
-  } = router.query;
-
-  function findAlbum(array) {
-    let album = {};
-    for (let i = 0; i < array.length; i++) {
-      if (array[i].name === name) {
-        album = array[i];
-      }
-    }
-
-    return album;
+const id = ({ data }) => {
+  console.log(data);
+  const router = useRouter();
+  if (router.isFallback) {
+    return <h1>Loading</h1>;
   }
-  const pictures = findAlbum(pics);
-  const onlyimage = pictures.images;
 
-  console.log(onlyimage);
+  // const {
+  //   id,
+  //   name,
+  //   cover,
+  //   categorie,
+  //   length,
+  //   top,
+  //   weight,
+  //   width,
+  //   description,
+  //   picturesCourtesy,
+  //   images,
+  // } = router.query;
+
+  // function findAlbum(array) {
+  //   let album = {};
+  //   for (let i = 0; i < array.length; i++) {
+  //     if (array[i].name === name) {
+  //       album = array[i];
+  //     }
+  //   }
+
+  //   return album;
+  // }
+  // const pictures = findAlbum(pics);
+  // const onlyimage = pictures.images;
 
   return (
     <WebsiteLayout>
@@ -50,7 +52,7 @@ const id = () => {
             className="gallery__selector"
           />
           <Image
-            src={cover}
+            src={data.cover}
             alt="guitare-picture"
             width={500}
             height={500}
@@ -58,7 +60,7 @@ const id = () => {
           />
           <label htmlFor={`img-0`} className="gallery__thumb">
             <Image
-              src={cover}
+              src={data.cover}
               alt="miniature-guitare"
               width={100}
               height={100}
@@ -66,7 +68,7 @@ const id = () => {
           </label>
         </div>
 
-        {onlyimage?.map((data) => {
+        {data.images?.map((data) => {
           return (
             <div key={data.id} className="gallery__item">
               <input
@@ -186,38 +188,77 @@ const id = () => {
       </section>
       {/* DETAILs */}
       <h2 className="text-2xl text-color-secondary m-5 p-5 border-b-1 border-black font-bold">
-        {name}
+        {data.name}
       </h2>
       <h3 className="text-xl font-bold text-color-secondary">Categorie</h3>
-      <span className="text-color-secondary text-lg">{categorie}</span>
+      <span className="text-color-secondary text-lg">{data.categorie}</span>
       <h3 className="text-xl font-bold text-color-secondary ">Description</h3>
       <p className="m-2 md:w-40vw sm:w-70vw text-lg text-center text-color-secondary ">
-        {description}
+        {data.description}
       </p>
       <h3 className="text-xl font-bold text-color-secondary">Details</h3>
       <div className="container-details text-center text-color-secondary">
         <span className="text-color-secondary text-lg">
           {" "}
-          Nut width: {width}
+          Nut width: {data.width}
         </span>
         <br />
         <span className="text-color-secondary text-lg">
           {" "}
-          Scale length: {length}
+          Scale length: {data.length}
         </span>
         <br />
-        <span className="text-color-secondary text-lg"> Weight: {weight}</span>
+        <span className="text-color-secondary text-lg">
+          {" "}
+          Weight: {data.weight}
+        </span>
         <br />
-        <span className="text-color-secondary text-lg"> Top: {top}</span>
+        <span className="text-color-secondary text-lg"> Top: {data.top}</span>
         <br />
         <br />
         <br />
         <span className="text-color-secondary text-lg">
-          Pictures Courtesy of {picturesCourtesy}
+          Pictures Courtesy of {data.picturesCourtesy}
         </span>
       </div>
     </WebsiteLayout>
   );
 };
+
+// pages/posts/[id].js
+
+// Generates `/posts/1` and `/posts/2`
+export async function getStaticPaths() {
+  // const parse = JSON.parse(data);
+  let data2 = data;
+  const paths = data2.map((path) => {
+    return {
+      params: { id: path.id.toString() },
+    };
+  });
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
+// `getStaticPaths` requires using `getStaticProps`
+export async function getStaticProps(context) {
+  const slug = context.params.id;
+
+  // if (!slug) {
+  //   return {
+  //     notFound: true,
+  //   };
+  // }
+
+  let data2 = data[slug];
+  // data = data.filter((p) => p.id.toString() === id);
+  return {
+    // Passed to the page component as props
+    props: { data: data2 || null },
+  };
+}
 
 export default id;
